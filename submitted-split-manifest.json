@@ -1,0 +1,35 @@
+{
+  "schema": "dina-yolo-fire-classification-split/v1",
+  "seed": 20260828,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "samples": {
+    "train": 2996,
+    "val": 736,
+    "test": 737
+  },
+  "class_samples": {
+    "train": {
+      "fire": 1546,
+      "non_fire": 1450
+    },
+    "val": {
+      "fire": 331,
+      "non_fire": 405
+    },
+    "test": {
+      "fire": 331,
+      "non_fire": 406
+    }
+  },
+  "source_groups": {
+    "train": 1284,
+    "val": 130,
+    "test": 130
+  },
+  "source_group_overlap": 0,
+  "assignment_sha256": "6084975bab5b291aafe02e587fae245da35e72b254aac36d26d7471704765e5f"
+}
